@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>BankDash</title>
+</head>
+
+<body>
+    <header>
+        <aside>
+            <nav>
+                <ul class="header_ul">
+                    <li>
+                        <a href="../../index.html">
+                            <img src="../images/png/main_logo.png" alt="main logo">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/home_icon.svg" alt=" home icon">
+                        <a href="../../index.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/transfer_icon.svg" alt="transfer icon">
+                        <a href="../path/transactions.html">Transactions</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/accaunt_icon.svg" alt="accaunt icon">
+                        <a href="../path/accaunt.html">Accounts</a>
+                    </li>
+                    <li class="aside_active">
+                        <img src="../images/svg/active_investment_icon.svg" alt="investment icon">
+                        <a id="aside_a_active" href="../path/investments.html">Investments</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/card_icon.svg" alt="card icon">
+                        <a href="../path/credit.html">Credit Cards</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/loan_icon.svg" alt="loan icon">
+                        <a href="../path/loan.html">Loans</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/service_icon.svg" alt="service icon">
+                        <a href="../path/service.html">Services</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/econometrics_icon.svg" alt="econometrics icon">
+                        <a href="#">My Privileges</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/aside_setting_icon.svg" alt="setting icon">
+                        <a href="../path/settings.html">Setting</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </header>
+    <main>
+        <section class="main_nav_wrapper">
+            <div class="burger_manu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="main_nav_search">
+                <h1>Investments</h1>
+                <form action="shearch">
+                    <img src="../images/svg/search_icon.svg" alt="search icon">
+                    <input placeholder="Search for something" type="text" name="shearch" id="shearch">
+                </form>
+            </div>
+            <div class="main_nav_icons">
+                <img src="../images/svg/setting_icon.svg" alt="setting icon">
+                <img src="../images/svg/bell_icon.svg" alt="bell icon">
+                <img src="../images/png/profile_icon.png" alt="profile icon">
+            </div>
+        </section>
+        <section class="main_content_background">
+            <section class="main_content">
+
+                <div class="investment_info_wrapper">
+                    <div class="investment_card">
+                        <img src="../images/png/total_investment.png" alt="total investment icon">
+                        <div>
+                            <p class="p_style">Total Invested Amount</p>
+                            <h3>$150,000</h3>
+                        </div>
+                    </div>
+
+                    <div class="investment_card">
+                        <img src="../images/png/number_of_investment.png" alt="total investment icon">
+                        <div>
+                            <p class="p_style">Number of Investments</p>
+                            <h3>1,250</h3>
+                        </div>
+                    </div>
+
+                    <div class="investment_card">
+                        <img src="../images/png/rate_of_return.png" alt="total investment icon">
+                        <div>
+                            <p class="p_style">Rate of Return</p>
+                            <h3>+5.80%</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="investment_charts_wrapper">
+                    <div class="yearly_investment">
+                        <h2 class="h2_style">Yearly Total Investment</h2>
+                        <img src="../images/png/yearly_investment.png" alt="yearly investment">
+                    </div>
+                    <div class="revenue">
+                        <h2 class="h2_style">Monthly Revenue</h2>
+                        <img src="../images/png/revenue.png" alt="revenue">
+                    </div>
+                </div>
+
+                <div class="currency_change">
+                    <div class="my_investment">
+                        <h2 class="h2_style">My Investment</h2>
+                        <div class="currency_change_card">
+                            <img src="../images/png/apple.png" alt="apple">
+                            <div>
+                                <h3>Apple Store</h3>
+                                <p class="p_style">E-commerce, Marketplace</p>
+                            </div>
+                            <div>
+                                <h3>$54,000</h3>
+                                <p class="p_style">Envestment Value</p>
+                            </div>
+                            <div>
+                                <span id="green_text">+16%</span>
+                                <p class="p_style">Return Value</p>
+                            </div>
+                        </div>
+
+                        <div class="currency_change_card">
+                            <img src="../images/png/samsung.png" alt="samsung">
+                            <div>
+                                <h3>Samsung Mobile</h3>
+                                <p class="p_style">E-commerce, Marketplace</p>
+                            </div>
+                            <div>
+                                <h3>$25,300</h3>
+                                <p class="p_style">Envestment Value</p>
+                            </div>
+                            <div>
+                                <span>-4%%</span>
+                                <p class="p_style">Return Value</p>
+                            </div>
+                        </div>
+
+                        <div class="currency_change_card">
+                            <img src="../images/png/tesla.png" alt="tesla">
+                            <div>
+                                <h3>Tesla Motors</h3>
+                                <p class="p_style">E-commerce, Marketplace</p>
+                            </div>
+                            <div>
+                                <h3>$8,200</h3>
+                                <p class="p_style">Envestment Value</p>
+                            </div>
+                            <div>
+                                <span id="green_text">+25%</span>
+                                <p class="p_style">Return Value</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stock_wrapper">
+                        <h2 class="h2_style">Trending Stock</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>SL No</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Return</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01.</td>
+                                    <td>Trivago</td>
+                                    <td>$520</td>
+                                    <td id="green_text">+5%</td>
+                                </tr>
+    
+                                <tr>
+                                    <td>02.</td>
+                                    <td>Canon</td>
+                                    <td>$480</td>
+                                    <td id="green_text">+10%</td>
+                                </tr>
+    
+                                <tr>
+                                    <td>03.</td>
+                                    <td>Uber Food</td>
+                                    <td>$350</td>
+                                    <td>-3%</td>
+                                </tr>
+
+                                <tr>
+                                    <td>04.</td>
+                                    <td>Nokia</td>
+                                    <td>$940</td>
+                                    <td id="green_text">+2%</td>
+                                </tr>
+
+                                <tr>
+                                    <td>05.</td>
+                                    <td>Tiktok</td>
+                                    <td>$670</td>
+                                    <td>-12%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

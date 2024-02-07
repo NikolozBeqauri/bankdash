@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>BankDash</title>
+</head>
+
+<body>
+    <header>
+        <aside>
+            <nav>
+                <ul class="header_ul">
+                    <li>
+                        <a href="../../index.html">
+                            <img src="../images/png/main_logo.png" alt="main logo">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/home_icon.svg" alt=" home icon">
+                        <a href="../../index.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/transfer_icon.svg" alt="transfer icon">
+                        <a href="../path/transactions.html">Transactions</a>
+                    </li>
+                    <li class="aside_active">
+                        <img src="../images/svg/active_accaunt_icon.svg" alt="accaunt icon">
+                        <a id="aside_a_active" href="../path/accaunt.html">Accounts</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/investment_icon.svg" alt="investment icon">
+                        <a href="../path/investments.html">Investments</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/card_icon.svg" alt="card icon">
+                        <a href="../path/credit.html">Credit Cards</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/loan_icon.svg" alt="loan icon">
+                        <a href="../path/loan.html">Loans</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/service_icon.svg" alt="service icon">
+                        <a href="../path/service.html">Services</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/econometrics_icon.svg" alt="econometrics icon">
+                        <a href="#">My Privileges</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/aside_setting_icon.svg" alt="setting icon">
+                        <a href="../path/settings.html">Setting</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </header>
+    <main>
+        <section class="main_nav_wrapper">
+            <div class="burger_manu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="main_nav_search">
+                <h1>Accaunt</h1>
+                <form action="shearch">
+                    <img src="../images/svg/search_icon.svg" alt="search icon">
+                    <input placeholder="Search for something" type="text" name="shearch" id="shearch">
+                </form>
+            </div>
+            <div class="main_nav_icons">
+                <img src="../images/svg/setting_icon.svg" alt="setting icon">
+                <img src="../images/svg/bell_icon.svg" alt="bell icon">
+                <img src="../images/png/profile_icon.png" alt="profile icon">
+            </div>
+        </section>
+
+        <section class="main_content_background">
+            <section class="main_content">
+                <div class="accaunt_info_wrapper">
+                    <div>
+                        <img src="../images/png/balance.png" alt="balance icon">
+                        <div>
+                            <p class="p_style">My Balance</p>
+                            <h4>$12,750</h4>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="../images/svg/incom.svg" alt="income icon">
+                        <div>
+                            <p class="p_style">Income</p>
+                            <h4>$5,600</h4>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="../images/png/expense.png" alt="expense icon">
+                        <div>
+                            <p class="p_style">Expense</p>
+                            <h4>$3,460</h4>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="../images/png/total_saving.png" alt="saving icon">
+                        <div>
+                            <p class="p_style">Total Saving</p>
+                            <h4>$7,920</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="transaction_warpper">
+                    <h2 class="h2_style">Last Transaction</h2>
+
+                    <div class="transaction">
+
+                        <div class="last_transaction_content_wapper">
+
+                            <div class="last_transaction_content">
+                                <img src="../images/png/subscription.png" alt="subscription">
+                                <div>
+                                    <h4>Spotify Subscription</h4>
+                                    <p class="p_style">25 Jan 2021</p>
+                                </div>
+                                <p class="p_style">Shopping</p>
+                                <p class="p_style">1234 ****</p>
+                                <p class="p_style">Pending</p>
+                                <span>-$150</span>
+                            </div>
+
+                            <div class="last_transaction_content">
+                                <img src="../images/png/mobile_service.png" alt="mobile service">
+                                <div>
+                                    <h4>Mobile Service</h4>
+                                    <p class="p_style">25 Jan 2021</p>
+                                </div>
+                                <p class="p_style">Service</p>
+                                <p class="p_style">1234 ****</p>
+                                <p class="p_style">Completed</p>
+                                <span>-$340</span>
+                            </div>
+
+                            <div class="last_transaction_content">
+                                <img src="../images/png/user.png" alt="user">
+                                <div>
+                                    <h4>Emilly Wilson</h4>
+                                    <p class="p_style">25 Jan 2021</p>
+                                </div>
+                                <p class="p_style">Transfer</p>
+                                <p class="p_style">1234 ****</p>
+                                <p class="p_style">Completed</p>
+                                <span id="green_text">+$780</span>
+                            </div>
+                        </div>
+
+                        <div class="card_wrapper">
+                            <div class="card_header">
+                                <div>
+                                    <span>Balance</span>
+                                    <p>$5,756</p>
+                                </div>
+                                <img src="../images/png/white_chip_card.png" alt="card chip">
+                            </div>
+                            <div class="card_content">
+                                <div>
+                                    <span>CARD HOLDER</span>
+                                    <p>Eddy Cusuma</p>
+                                </div>
+                                <div>
+                                    <span>VALID THRU</span>
+                                    <p>12/22</p>
+                                </div>
+                            </div>
+                            <div class="card_footer">
+                                <p>3778 **** **** 1234</p>
+                                <img src="../images/svg/master_card.svg" alt="master card">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="credit_overview_wrapper">
+                    <div>
+                        <h2 class="h2_style">Debit & Credit Overview</h2>
+                        <img src="../images/png/credit_overview.png" alt=" credit overview">
+                    </div>
+                    <div class="credit_content">
+                        <h2 class="h2_style">Invoices Sent</h2>
+                        <div class="credit_card_wrapper">
+                            <div class="credit_card">
+                                <div>
+                                    <img src="../images/svg/apple.svg" alt="apple">
+                                    <div>
+                                        <h3>Apple Store</h3>
+                                        <p>5h ago</p>
+                                    </div>
+                                </div>
+                                <p>$450</p>
+                            </div>
+
+                            <div class="credit_card">
+                                <div>
+                                    <img src="../images/svg/user_2.svg" alt="apple">
+                                    <div>
+                                        <h3>Michael</h3>
+                                        <p>2 days ago</p>
+                                    </div>
+                                </div>
+                                <p>$160</p>
+                            </div>
+
+                            <div class="credit_card">
+                                <div>
+                                    <img src="../images/svg/playstation.svg" alt="apple">
+                                    <div>
+                                        <h3>Playstation</h3>
+                                        <p>5 days ago</p>
+                                    </div>
+                                </div>
+                                <p>$1085</p>
+                            </div>
+
+                            <div class="credit_card">
+                                <div>
+                                    <img src="../images/png/user_3.png" alt="apple">
+                                    <div>
+                                        <h3>William</h3>
+                                        <p>10 days ago</p>
+                                    </div>
+                                </div>
+                                <p>$90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

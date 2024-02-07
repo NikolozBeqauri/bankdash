@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>BankDash</title>
+</head>
+
+<body>
+    <header>
+        <aside>
+            <nav>
+                <ul class="header_ul">
+                    <li>
+                        <a href="../../index.html">
+                            <img src="../images/png/main_logo.png" alt="main logo">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/home_icon.svg" alt=" home icon">
+                        <a href="../../index.html">Dashboard</a>
+                    </li>
+                    <li class="aside_active">
+                        <img src="../images/svg/active_transfer_icon.svg.svg" alt="transfer icon">
+                        <a id="aside_a_active" href="../path/transactions.html">Transactions</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/accaunt_icon.svg" alt="accaunt icon">
+                        <a href="./accaunt.html">Accounts</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/investment_icon.svg" alt="investment icon">
+                        <a href="./investments.html">Investments</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/card_icon.svg" alt="card icon">
+                        <a href="./credit.html">Credit Cards</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/loan_icon.svg" alt="loan icon">
+                        <a href="./loan.html">Loans</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/service_icon.svg" alt="service icon">
+                        <a href="./service.html">Services</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/econometrics_icon.svg" alt="econometrics icon">
+                        <a href="#">My Privileges</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/aside_setting_icon.svg" alt="setting icon">
+                        <a href="./settings.html">Setting</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </header>
+    <main>
+        <section class="main_nav_wrapper">
+            <div class="burger_manu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="main_nav_search">
+                <h1>Transaction</h1>
+                <form action="shearch">
+                    <img src="../images/svg/search_icon.svg" alt="search icon">
+                    <input placeholder="Search for something" type="text" name="shearch" id="shearch">
+                </form>
+            </div>
+            <div class="main_nav_icons">
+                <img src="../images/svg/setting_icon.svg" alt="setting icon">
+                <img src="../images/svg/bell_icon.svg" alt="bell icon">
+                <img src="../images/png/profile_icon.png" alt="profile icon">
+            </div>
+        </section>
+
+        <section class="main_content_background">
+            <section class="main_content">
+                <div class="my_card_wrapper">
+                    <div class="transaction_titles my_card_titles">
+                        <h2 class="h2_style">My Cards</h2>
+                        <p>+ Add Card</p>
+                        <h2 class="h2_style">My Expense</h2>
+                    </div>
+                    <div class="my_cards">
+                        <div class="card_wrapper">
+                            <div class="card_header">
+                                <div>
+                                    <span>Balance</span>
+                                    <p>$5,756</p>
+                                </div>
+                                <img src="../images/png/white_chip_card.png" alt="card chip">
+                            </div>
+                            <div class="card_content">
+                                <div>
+                                    <span>CARD HOLDER</span>
+                                    <p>Eddy Cusuma</p>
+                                </div>
+                                <div>
+                                    <span>VALID THRU</span>
+                                    <p>12/22</p>
+                                </div>
+                            </div>
+                            <div class="card_footer">
+                                <p>3778 **** **** 1234</p>
+                                <img src="../images/svg/master_card.svg" alt="master card">
+                            </div>
+                        </div>
+
+                        <div class="white_card card_wrapper">
+                            <div class="card_header">
+                                <div>
+                                    <span>Balance</span>
+                                    <p>$5,756</p>
+                                </div>
+                                <img src="../images/png/darck_chip_card.png" alt="card chip">
+                            </div>
+                            <div class="card_content">
+                                <div>
+                                    <span>CARD HOLDER</span>
+                                    <p>Eddy Cusuma</p>
+                                </div>
+                                <div>
+                                    <span>VALID THRU</span>
+                                    <p>12/22</p>
+                                </div>
+                            </div>
+                            <div class="card_footer">
+                                <p>3778 **** **** 1234</p>
+                                <img src="../images/svg/white_master_card.svg" alt="master card">
+                            </div>
+                        </div>
+
+                        <div class="expence_wrapper">
+                            <img src="../images/png/expence.png" alt="expence">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="transaction_wrapper">
+                    <h2 class="h2_style">Recent Transactions</h2>
+                    <div class="transaction_content">
+                        <div class="transaction_navigation">
+                            <a href="#">All Transactions</a>
+                            <a href="#">Income</a>
+                            <a href="#">Expense</a>
+                        </div>
+                        <table class="transaction_table">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Transaction ID</th>
+                                    <th>Type</th>
+                                    <th>Card</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Receipt</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <img src="../images/svg/up_arrow.svg" alt="up arrow">
+                                            <span>Spotify Subscription</span>
+                                        </div>
+                                    </td>
+                                    <td>#12548796</td>
+                                    <td>Shopping</td>
+                                    <td>1234 ****</td>
+                                    <td>28 Jan, 12.30 AM</td>
+                                    <td>-$2,500</td>
+                                    <td><button>Download</button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <img src="../images/svg/down_arrow.svg" alt="down arrow">
+                                            <span>Freepik Sales</span>
+                                        </div>
+                                    </td>
+                                    <td>#12548796</td>
+                                    <td>Transfer</td>
+                                    <td>1234 ****</td>
+                                    <td>25 Jan, 10.40 PM</td>
+                                    <td id="green_text">+$750</td>
+                                    <td><button>Download</button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <img src="../images/svg/up_arrow.svg" alt="up arrow">
+                                            <span>Mobile Service</span>
+                                        </div>
+                                    </td>
+                                    <td>#12548796</td>
+                                    <td>Service</td>
+                                    <td>1234 ****</td>
+                                    <td>20 Jan, 10.40 PM</td>
+                                    <td>-$150</td>
+                                    <td><button>Download</button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <img src="../images/svg/up_arrow.svg" alt="up arrow">
+                                            <span>Wilson</span>
+                                        </div>
+                                    </td>
+                                    <td>#12548796</td>
+                                    <td>Transfer</td>
+                                    <td>1234 ****</td>
+                                    <td>15 Jan, 03.29 PM</td>
+                                    <td>-$1050</td>
+                                    <td><button>Download</button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <img src="../images/svg/down_arrow.svg" alt="down arrow">
+                                            <span>Emilly</span>
+                                        </div>
+                                    </td>
+                                    <td>#12548796</td>
+                                    <td>Transfer</td>
+                                    <td>1234 ****</td>
+                                    <td>14 Jan, 10.40 PM</td>
+                                    <td id="green_text">+$840</td>
+                                    <td><button>Download</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="transaction_footer_navigation">
+                        <img src="../images/svg/blue_left_arrow.svg" alt="blue left arrow">
+                        <p>Previous</p>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <p>Next</p>
+                        <img src="../images/svg/blue_right_arrow.svg" alt="blue right arrow">
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>

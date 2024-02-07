@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>BankDash</title>
+</head>
+
+<body>
+    <header>
+        <aside>
+            <nav>
+                <ul class="header_ul">
+                    <li>
+                        <a href="../../index.html">
+                            <img src="../images/png/main_logo.png" alt="main logo">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/home_icon.svg" alt=" home icon">
+                        <a href="../../index.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/transfer_icon.svg" alt="transfer icon">
+                        <a href="../path/transactions.html">Transactions</a>
+                    </li>
+                    <li >
+                        <img src="../images/svg/accaunt_icon.svg" alt="accaunt icon">
+                        <a href="../path/accaunt.html">Accounts</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/investment_icon.svg" alt="investment icon">
+                        <a href="../path/investments.html">Investments</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/card_icon.svg" alt="card icon">
+                        <a href="../path/credit.html">Credit Cards</a>
+                    </li>
+                    <li class="aside_active">
+                        <img src="../images/svg/active_loan_icon.svg" alt="loan icon">
+                        <a id="aside_a_active" href="../path/loan.html">Loans</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/service_icon.svg" alt="service icon">
+                        <a href="../path/service.html">Services</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/econometrics_icon.svg" alt="econometrics icon">
+                        <a href="#">My Privileges</a>
+                    </li>
+                    <li>
+                        <img src="../images/svg/aside_setting_icon.svg" alt="setting icon">
+                        <a href="../path/settings.html">Setting</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </header>
+    <main>
+        <section class="main_nav_wrapper">
+            <div class="burger_manu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="main_nav_search">
+                <h1>Overview</h1>
+                <form action="shearch">
+                    <img src="../images/svg/search_icon.svg" alt="search icon">
+                    <input placeholder="Search for something" type="text" name="shearch" id="shearch">
+                </form>
+            </div>
+            <div class="main_nav_icons">
+                <img src="../images/svg/setting_icon.svg" alt="setting icon">
+                <img src="../images/svg/bell_icon.svg" alt="bell icon">
+                <img src="../images/png/profile_icon.png" alt="profile icon">
+            </div>
+        </section>
+        <section class="main_content_background">
+            <section class="main_content">
+                <div class="loan_cards_wrapper">
+                    <div class="loan_card">
+                        <img class="blue_background" src="../images/svg/loan_card_1.svg" alt="loan icon">
+                        <div>
+                            <p class="p_style">Personal Loans</p>
+                            <h3>$50,000</h3>
+                        </div>
+                    </div>
+
+                    <div class="loan_card">
+                        <img class="yellow_background" src="../images/svg/loan_card_2.svg" alt="loan icon">
+                        <div>
+                            <p class="p_style">Personal Loans</p>
+                            <h3>$50,000</h3>
+                        </div>
+                    </div>
+
+                    <div class="loan_card">
+                        <img class="pink_background" src="../images/svg/loan_card_3.svg" alt="loan icon">
+                        <div>
+                            <p class="p_style">Personal Loans</p>
+                            <h3>$50,000</h3>
+                        </div>
+                    </div>
+
+                    <div class="loan_card">
+                        <img class="green_background" src="../images/svg/loan_card_4.svg" alt="loan icon">
+                        <div>
+                            <p class="p_style">Personal Loans</p>
+                            <h3>$50,000</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="loan_overview">
+                    <h2 class="h2_style">Active Loans Overview</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>SL No</th>
+                                    <th>Loan Money</th>
+                                    <th>Left to repay</th>
+                                    <th>Duration</th>
+                                    <th>Interest rate</th>
+                                    <th>Installment</th>
+                                    <th>Repay</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01.</td>
+                                    <td>$100,000</td>
+                                    <td>$40,500</td>
+                                    <td>8 Months</td>
+                                    <td>12%</td>
+                                    <td>$2,000 / month</td>
+                                    <td><button class="active_button">Repay</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>02.</td>
+                                    <td>$500,000</td>
+                                    <td>$250,000</td>
+                                    <td>36 Months</td>
+                                    <td>10%</td>
+                                    <td>$8,000 / month</td>
+                                    <td><button>Repay</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>03.</td>
+                                    <td>$900,000</td>
+                                    <td>$40,500</td>
+                                    <td>12 Months</td>
+                                    <td>12%</td>
+                                    <td>$5,000 / month</td>
+                                    <td><button>Repay</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>04.</td>
+                                    <td>$50,000</td>
+                                    <td>$40,500</td>
+                                    <td>25 Months</td>
+                                    <td>5%</td>
+                                    <td>$2,000 / month</td>
+                                    <td><button>Repay</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>05.</td>
+                                    <td>$50,000</td>
+                                    <td>$40,500</td>
+                                    <td>5 Months</td>
+                                    <td>16%</td>
+                                    <td>$10,000 / month</td>
+                                    <td><button>Repay</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>06.</td>
+                                    <td>$80,000</td>
+                                    <td>$25,500</td>
+                                    <td>14 Months</td>
+                                    <td>8%</td>
+                                    <td>$2,000 / month</td>
+                                    <td><button>Repay</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>07.</td>
+                                    <td>$12,000</td>
+                                    <td>$5,500</td>
+                                    <td>9 Months</td>
+                                    <td>13%</td>
+                                    <td>$500 / month</td>
+                                    <td><button>Repay</button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>08.</td>
+                                    <td>$160,000</td>
+                                    <td>$100,800</td>
+                                    <td>3 Months</td>
+                                    <td>12%</td>
+                                    <td>$900 / month</td>
+                                    <td><button>Repay</button></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                  <td>Total</td>
+                                  <td>$125,0000</td>
+                                  <td>$750,000</td>
+                                  <td></td>
+                                  <td></td>
+                                  <td>$50,000 / month</td>
+                                </tr>
+                              </tfoot>
+                        </table>
+                </div>
+
+
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
